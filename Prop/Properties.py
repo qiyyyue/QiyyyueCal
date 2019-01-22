@@ -7,7 +7,7 @@ class Properties:
 
     def __init__(self, file_name):
 
-        # print(os.path.dirname(os.path.realpath(__file__)))
+        print(os.path.dirname(os.path.realpath(__file__)))
 
         self.file_dir = os.path.dirname(os.path.realpath(__file__))
         self.file_name = os.path.join(self.file_dir, file_name)
